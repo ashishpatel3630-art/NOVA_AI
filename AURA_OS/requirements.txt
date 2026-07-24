@@ -1,0 +1,8 @@
+PySide6
+SQLAlchemy
+pandas
+matplotlib
+pytest
+python-dotenv
+psutil
+pyinstaller
