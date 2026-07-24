@@ -1,4 +1,9 @@
 import sys
+from pathlib import Path
+
+# Ensure imports work when running from the AURA_OS folder directly.
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
 from PySide6.QtWidgets import QApplication
 from AURA_OS.database.app.core.logger import Logger
 from AURA_OS.database.app.core.database import initialize_database
